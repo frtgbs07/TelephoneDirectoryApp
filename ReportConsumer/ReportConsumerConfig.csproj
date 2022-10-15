@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TelephoneDirectory.ReportBusConfigurator\TelephoneDirectory.ReportBusConfigurator.csproj" />
+    <ProjectReference Include="..\TelephoneDirectory.ReportService.PresentationLayer\TelephoneDirectory.ReportService.PresentationLayer.csproj" />
+  </ItemGroup>
+
+</Project>
