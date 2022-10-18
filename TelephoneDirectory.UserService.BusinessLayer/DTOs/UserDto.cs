@@ -8,12 +8,12 @@ namespace TelephoneDirectory.UserService.BusinessLayer.DTOs
     {
         public UserDto()
         {
-            contactDtos = new List<ContactDto>();
+            ContactDtos = new List<ContactDto>();
         }
         public Guid UserID { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
         public string CompanyName { get; set; }
-        public ICollection<ContactDto> contactDtos { get; set; }
+        public ICollection<ContactDto> ContactDtos { get; set; }
     }
 }

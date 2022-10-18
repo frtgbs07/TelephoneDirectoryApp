@@ -25,7 +25,6 @@ namespace TelephoneDirectory.ReportService.BusinessLayer.Managers
             return report;
         }
 
-
         public ReportDto ConvertToDto(Report report)
         {
             ReportDto reportDto = new ReportDto();
@@ -38,7 +37,6 @@ namespace TelephoneDirectory.ReportService.BusinessLayer.Managers
 
             return reportDto;
         }
-
 
         public void AddReport(ReportDto reportDto)
         {

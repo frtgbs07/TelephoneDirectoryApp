@@ -61,7 +61,7 @@ namespace TelephoneDirectory.UserService.BusinessLayer.Managers
 
             foreach (var item in userDtos)
             {
-                item.contactDtos = contactsDtos.Where(x => x.UserID == item.UserID).ToList();
+                item.ContactDtos = contactsDtos.Where(x => x.UserID == item.UserID).ToList();
 
             }
 
