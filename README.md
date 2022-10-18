@@ -18,7 +18,7 @@ Select the following projects as multiple startup projects:
 - **TelephoneDirectory.ApiGateWay**
 - **TelephoneDirectory.UI**
 
-Add Migration using the nuget package manager console.
+Add Migration using the nuget package manager console for each service.
 
 
 ## Used technologies
